@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff143b76"
+    tools:context="com.example.bryanrosales.zentre.SingUp_Activity">
+
+    <TextView
+        android:id="@+id/Tv_RLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zentre"
+        android:textSize="100sp"/>
+
+    <EditText
+        android:id="@+id/Et_RUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Tv_RLogo"
+        android:text="Username"/>
+
+    <EditText
+        android:id="@+id/Et_RPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_below="@+id/Et_RUsername"
+        android:text="Password"/>
+
+    <EditText
+        android:id="@+id/Et_REmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Et_RPassword"
+        android:text="Email"/>
+
+    <Button
+        android:id="@+id/Btn_SingUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Et_REmail"
+        android:text="Sing Up"
+        android:onClick="Send_LogInForm"/>
+
+</RelativeLayout>

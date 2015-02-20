@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Zentre</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="title_activity_sing_up_">SingUp</string>
+    <string name="title_activity_home_">Services</string>
+    <string name="title_activity_public_wall">PublicWall</string>
+    <string name="title_activity_user_info_">UserInfo</string>
+    <string name="title_activity_tabs">TabsActivity</string>
+    <string name="title_activity_dialog__rest_1">Dialog_Rest_1</string>
+
+</resources>

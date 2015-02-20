@@ -1,0 +1,201 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bryanrosales.zentre.Home_Activity"
+    android:background="#1D4868">
+
+    <TabHost
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/tabHost"
+       >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+
+
+
+                <LinearLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/Et_UIUsername"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Username" />
+
+                    <EditText
+                        android:id="@+id/Et_UIPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/Et_UIUsername"
+                        android:hint="Password" />
+
+                    <EditText
+                        android:id="@+id/Et_UIEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/Et_UIPassword"
+                        android:hint="Email" />
+
+                    <EditText
+                        android:id="@+id/Et_UIFirstName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/Et_UIEmail"
+                        android:hint="First Name" />
+
+                    <EditText
+                        android:id="@+id/Et_UILastName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/Et_UIFirstName"
+                        android:hint="Last Name" />
+
+                    <EditText
+                        android:id="@+id/Et_UICountry"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/Et_UILastName"
+                        android:hint="Country" />
+
+
+                    <EditText
+                        android:id="@+id/Et_UIState"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/Et_UICountry"
+                        android:hint="Region/State/Province" />
+
+                    <EditText
+                        android:id="@+id/Et_UICity"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/Et_UIState"
+                        android:hint="City" />
+
+
+                    <EditText
+                        android:id="@+id/ET_UIStreet"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/Et_UICity"
+                        android:hint="Street" />
+
+                    <EditText
+                        android:id="@+id/Et_UIHouseNumber_I"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ET_UIStreet"
+                        android:hint="House Number (Internal)" />
+
+                    <EditText
+                        android:id="@+id/Et_UIHouseNumber_E"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/Et_UIHouseNumber_I"
+                        android:hint="House Number (External)" />
+
+                    <EditText
+                        android:id="@+id/Et_UIZip"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/Et_UIHouseNumber_E"
+                        android:hint="ZIP" />
+
+
+                    <EditText
+                        android:id="@+id/Et_UIZip3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/Et_UIZip"
+                        android:hint="ZIP" />
+
+
+                    <EditText
+                        android:id="@+id/Et_UIZip4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/Et_UIZip3"
+                        android:hint="ZIP" />
+                </LinearLayout>
+
+
+
+
+                    <LinearLayout
+                        android:id="@+id/tab2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <EditText
+                            android:id="@+id/g12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <EditText
+                            android:id="@+id/g13"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/g12"/>
+
+                        <EditText
+                            android:id="@+id/g14"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/g13"/>
+
+
+                     </LinearLayout>>
+
+
+                <ScrollView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/scrollView_Tab3">
+
+                    <LinearLayout
+                        android:id="@+id/tab3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <EditText
+                            android:id="@+id/g122"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+                        <EditText
+                            android:id="@+id/g133"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/g122"/>
+
+
+                    </LinearLayout>
+                </ScrollView>
+
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout>
