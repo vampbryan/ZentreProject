@@ -1,7 +1,8 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-
     tools:context="com.example.bryanrosales.zentre.TabsActivity">
 
     <TabHost
@@ -52,7 +53,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="85dp"
                         android:onClick="Send_Dialog_Restaurant"
-                        android:background="@drawable/imgrest1"
+                        android:background="@drawable/btn_kentucky"
                         android:layout_below="@+id/TV_Restaurants_Tab1"/>
 
 
@@ -180,6 +181,29 @@
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
                     android:orientation="vertical">
+
+                        <Button
+                            android:id="@+id/Promotion1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                        <Button
+                            android:id="@+id/Promotion3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                        <Button
+                            android:id="@+id/Promotion4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                        <Button
+                            android:id="@+id/Promotion5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                        <Button
+                            android:id="@+id/Promotion6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+
+
                     </LinearLayout>
 
 
@@ -192,8 +216,10 @@
                         android:orientation="vertical">
 
                       </LinearLayout>
+
             </FrameLayout>
             </ScrollView>
         </LinearLayout>
     </TabHost>
 </RelativeLayout>
+

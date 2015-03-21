@@ -16,6 +16,7 @@ public class TabsActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tabs);
+        setTitle("ZENTRE");
 
         TabHost tabHost = (TabHost) findViewById(R.id.tabHost2);
 
@@ -37,6 +38,7 @@ public class TabsActivity extends ActionBarActivity {
         tabHost.addTab(tabSpec);
 
 
+
     }
 
     public void Send_Dialog_Restaurant(View view){
@@ -52,6 +54,7 @@ public class TabsActivity extends ActionBarActivity {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_tabs, menu);
         return true;
+
     }
 
     @Override
@@ -71,6 +74,13 @@ public class TabsActivity extends ActionBarActivity {
             startActivity(intent);
             return true;
         }
+
+        if (id== R.id.action_order){
+            Intent intent = new Intent(this, Order_Activity.class);
+            startActivity(intent);
+            return true;
+        }
+
 
         return super.onOptionsItemSelected(item);
     }

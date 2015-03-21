@@ -14,5 +14,6 @@
     <string name="title_activity_tabs">TabsActivity</string>
     <string name="title_activity_dialog__rest_1">Dialog_Rest_1</string>
     <string name="title_activity_user__info_">User_Info_Activity</string>
+    <string name="title_activity_order_">Order_Activity</string>
 
 </resources>

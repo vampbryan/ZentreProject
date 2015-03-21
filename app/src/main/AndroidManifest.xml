@@ -42,7 +42,8 @@
         </activity>
         <activity
             android:name=".TabsActivity"
-            android:label="@string/title_activity_tabs" >
+            android:label="@string/title_activity_tabs"
+            android:icon="@drawable/user_icon">
         </activity>
         <activity
             android:name=".Dialog_Rest_1"
@@ -51,6 +52,10 @@
         <activity
             android:name=".User_Info_Activity"
             android:label="@string/title_activity_user__info_" >
+        </activity>
+        <activity
+            android:name=".Order_Activity"
+            android:label="@string/title_activity_order_" >
         </activity>
     </application>
 
