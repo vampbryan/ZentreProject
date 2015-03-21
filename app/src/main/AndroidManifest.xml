@@ -48,6 +48,10 @@
             android:name=".Dialog_Rest_1"
             android:label="@string/title_activity_dialog__rest_1" >
         </activity>
+        <activity
+            android:name=".User_Info_Activity"
+            android:label="@string/title_activity_user__info_" >
+        </activity>
     </application>
 
 </manifest>

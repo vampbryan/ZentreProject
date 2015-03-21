@@ -26,22 +26,25 @@ public class TabsActivity extends ActionBarActivity {
         tabSpec.setIndicator("Services");
         tabHost.addTab(tabSpec);
 
-        tabSpec = tabHost.newTabSpec("userinfo");
+        tabSpec = tabHost.newTabSpec("Promotions");
         tabSpec.setContent(R.id.linearLayout2);
-        tabSpec.setIndicator("UserInfo");
-        tabHost.addTab(tabSpec);
-
-        tabSpec = tabHost.newTabSpec("promotions");
-        tabSpec.setContent(R.id.linearLayout3);
         tabSpec.setIndicator("Promotions");
         tabHost.addTab(tabSpec);
+
+        tabSpec = tabHost.newTabSpec("publicwall");
+        tabSpec.setContent(R.id.linearLayout3);
+        tabSpec.setIndicator("PublicWall");
+        tabHost.addTab(tabSpec);
+
+
     }
 
     public void Send_Dialog_Restaurant(View view){
         Intent intent = new Intent(this, Dialog_Rest_1.class);
         startActivity(intent);
-
     }
+
+
 
 
     @Override
@@ -60,6 +63,12 @@ public class TabsActivity extends ActionBarActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+            return true;
+        }
+
+        if (id== R.id.action_go_user_info){
+            Intent intent = new Intent(this, User_Info_Activity.class);
+            startActivity(intent);
             return true;
         }
 

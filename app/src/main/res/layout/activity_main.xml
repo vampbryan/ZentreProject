@@ -6,7 +6,7 @@
     android:paddingRight="16dp"
     tools:context=".MainActivity"
     android:id="@+id/mainpage"
-    android:background="#ff143b76">
+    android:background="#242121">
 
 
 
@@ -18,30 +18,30 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/IV_Logo"
-        android:background="@drawable/zen_logo"
+        android:background="@drawable/zentre_logo_dark"
         android:layout_centerHorizontal="true" />
 
     <EditText
         android:id="@+id/Et_Email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="   Email"
-        android:background="@drawable/te_format"
+        android:hint="Email"
+        android:background="@drawable/edit_text_dark"
         android:layout_below="@+id/IV_Logo"
         android:layout_centerHorizontal="true"
-        android:paddingStart="5dp" />
+        android:paddingStart="8dp" />
 
     <EditText
         android:id="@+id/Et_Password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
-        android:background="@drawable/te_format"
+        android:background="@drawable/edit_text_dark"
         android:layout_below="@+id/Et_Email"
         android:hint="Password"
         android:layout_centerHorizontal="true"
         android:password="true"
-        android:paddingStart="5dp" />
+        android:paddingStart="8dp" />
 
 
     <ImageButton
@@ -49,7 +49,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/Et_Password"
-        android:background="@drawable/lbtn"
+        android:background="@drawable/login_btn_dark_1"
         android:onClick="Send_Home"
         android:layout_centerHorizontal="true" />
 
@@ -58,7 +58,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
-            android:background="@drawable/signbtn"
+            android:background="@drawable/singup_btn_dark_1"
             android:onClick="Send_SingUpForm"
             android:layout_below="@+id/Btn_LogIN"
             android:layout_alignParentLeft="true"

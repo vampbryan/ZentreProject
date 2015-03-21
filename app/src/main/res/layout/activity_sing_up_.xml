@@ -5,41 +5,77 @@
     android:background="#ff143b76"
     tools:context="com.example.bryanrosales.zentre.SingUp_Activity">
 
-    <TextView
-        android:id="@+id/Tv_RLogo"
-        android:layout_width="match_parent"
+    <RelativeLayout
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Zentre"
-        android:textSize="100sp"/>
+        android:layout_centerInParent="true"
+        android:id="@+id/relativeLayout">
 
-    <EditText
-        android:id="@+id/Et_RUsername"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/Tv_RLogo"
-        android:text="Username"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/IV_Logo"
+            android:background="@drawable/zen_logo"
+            android:layout_centerHorizontal="true" />
 
-    <EditText
-        android:id="@+id/Et_RPassword"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="textPassword"
-        android:layout_below="@+id/Et_RUsername"
-        android:text="Password"/>
+        <EditText
+            android:id="@+id/Et_Email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:background="@drawable/te_format"
+            android:layout_below="@+id/IV_Logo"
+            android:layout_centerHorizontal="true"
+            android:paddingStart="8dp" />
 
-    <EditText
-        android:id="@+id/Et_REmail"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/Et_RPassword"
-        android:text="Email"/>
+        <EditText
+            android:id="@+id/Et_Password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:background="@drawable/te_format"
+            android:layout_below="@+id/Et_Email"
+            android:hint="Password"
+            android:layout_centerHorizontal="true"
+            android:password="true"
+            android:paddingStart="8dp" />
 
-    <Button
-        android:id="@+id/Btn_SingUp"
-        android:layout_width="match_parent"
+        <EditText
+            android:id="@+id/Et_Username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:background="@drawable/te_format"
+            android:layout_below="@+id/Et_Password"
+            android:hint="Username"
+            android:layout_centerHorizontal="true"
+            android:password="true"
+            android:paddingStart="8dp" />
+
+
+        <ImageButton
+            android:id="@+id/Btn_SignUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Et_Username"
+            android:background="@drawable/signup_btn"
+            android:onClick="Send_LogInForm"
+            android:layout_centerHorizontal="true" />
+
+
+
+    <ImageButton
+        android:id="@+id/Btn_sLogIN"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/Et_REmail"
-        android:text="Sing Up"
-        android:onClick="Send_LogInForm"/>
+
+        android:background="@drawable/login_btn"
+        android:onClick="Send_LogInForm"
+
+        android:layout_below="@+id/Btn_SignUp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+        </RelativeLayout>
 
 </RelativeLayout>
