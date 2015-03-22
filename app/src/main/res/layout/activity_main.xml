@@ -49,7 +49,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/Et_Password"
-        android:background="@drawable/login_btn_dark_1"
+        android:background="@drawable/btn_logindef"
         android:onClick="Send_Home"
         android:layout_centerHorizontal="true" />
 

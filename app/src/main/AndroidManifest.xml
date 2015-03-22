@@ -32,12 +32,9 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.bryanrosales.zentre.MainActivity" />
         </activity>
+
         <activity
-            android:name=".PublicWall"
-            android:label="@string/title_activity_public_wall" >
-        </activity>
-        <activity
-            android:name=".UserInfo_Activity"
+            android:name=".User_Info_Activity"
             android:label="@string/title_activity_user_info_" >
         </activity>
         <activity
@@ -49,10 +46,7 @@
             android:name=".Dialog_Rest_1"
             android:label="@string/title_activity_dialog__rest_1" >
         </activity>
-        <activity
-            android:name=".User_Info_Activity"
-            android:label="@string/title_activity_user__info_" >
-        </activity>
+
         <activity
             android:name=".Order_Activity"
             android:label="@string/title_activity_order_" >

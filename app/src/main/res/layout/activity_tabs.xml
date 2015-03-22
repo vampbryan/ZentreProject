@@ -52,21 +52,26 @@
                         android:id="@+id/_1_Restaurants_Tab1"
                         android:layout_width="match_parent"
                         android:layout_height="85dp"
-                        android:onClick="Send_Dialog_Restaurant"
+
                         android:background="@drawable/btn_kentucky"
                         android:layout_below="@+id/TV_Restaurants_Tab1"/>
 
 
                     <Button
                         android:id="@+id/Ibtn_2_Restaurants_Tab1"
+                        android:layout_marginTop="5dp"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="85dp"
+                        android:background="@drawable/btn_mcdonals"
                         android:layout_below="@+id/_1_Restaurants_Tab1"/>
 
                     <Button
                         android:id="@+id/Ibtn_3_Restaurants_Tab1"
+                        android:layout_marginTop="5dp"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="85dp"
+                        android:onClick="Send_Dialog_Restaurant"
+                        android:background="@drawable/btn_pizzahut"
                         android:layout_below="@+id/Ibtn_2_Restaurants_Tab1"/>
 
 
@@ -80,19 +85,24 @@
                     <Button
                         android:id="@+id/Ibtn_1_Insurance_Tab1"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="85dp"
+                        android:background="@drawable/btn_gnp"
                         android:layout_below="@+id/TV_Insurance_Tab1"/>
 
                     <Button
                         android:id="@+id/Ibtn_2_Insurance_Tab1"
+                        android:layout_marginTop="5dp"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="85dp"
+                        android:background="@drawable/btn_angeles"
                         android:layout_below="@+id/Ibtn_1_Insurance_Tab1"/>
 
                     <Button
                         android:id="@+id/Ibtn_3_Insurance_Tab1"
+                        android:layout_marginTop="5dp"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="85dp"
+                        android:background="@drawable/btn_seguosmty"
                         android:layout_below="@+id/Ibtn_2_Insurance_Tab1"/>
 
                     <TextView
@@ -104,20 +114,24 @@
 
                     <Button
                         android:id="@+id/Ibtn_1_Government_Tab1"
+                        android:layout_marginTop="5dp"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="85dp"
+                        android:background="@drawable/btn_jale"
                         android:layout_below="@+id/TV_Government_Tab1"/>
 
                     <Button
                         android:id="@+id/Ibtn_2_Government_Tab1"
+                        android:layout_marginTop="5dp"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="85dp"
                         android:layout_below="@+id/Ibtn_1_Government_Tab1"/>
 
                     <Button
                         android:id="@+id/Ibtn_3_Government_Tab1"
+                        android:layout_marginTop="5dp"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="85dp"
                         android:layout_below="@+id/Ibtn_2_Government_Tab1"/>
 
                     <TextView
@@ -129,20 +143,23 @@
 
                     <Button
                         android:id="@+id/Ibtn_1_MedicalAssistance_Tab1"
+                        android:layout_marginTop="5dp"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="85dp"
                         android:layout_below="@+id/TV_MedicalAssistance_Tab1"/>
 
                     <Button
                         android:id="@+id/Ibtn_2_MedicalAssistance_Tab1"
+                        android:layout_marginTop="5dp"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="85dp"
                         android:layout_below="@+id/Ibtn_1_MedicalAssistance_Tab1"/>
 
                     <Button
                         android:id="@+id/Ibtn_3_MedicalAssistance_Tab1"
+                        android:layout_marginTop="5dp"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="85dp"
                         android:layout_below="@id/Ibtn_2_MedicalAssistance_Tab1"/>
 
                     <TextView
@@ -154,20 +171,23 @@
 
                     <Button
                         android:id="@+id/Ibtn_1_SecurityReports_Tab1"
+                        android:layout_marginTop="5dp"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="85dp"
                         android:layout_below="@id/TV_SecurityReports_Tab1"/>
 
                     <Button
                         android:id="@+id/Ibtn_2_SecurityReports_Tab1"
+                        android:layout_marginTop="5dp"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="85dp"
                         android:layout_below="@id/Ibtn_1_SecurityReports_Tab1"/>
 
                     <Button
                         android:id="@+id/Ibtn_3_SecurityReports_Tab1"
+                        android:layout_marginTop="5dp"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="85dp"
                         android:layout_below="@id/Ibtn_2_SecurityReports_Tab1"/>
 
 
@@ -185,23 +205,23 @@
                         <Button
                             android:id="@+id/Promotion1"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content" />
+                            android:layout_height="85dp" />
                         <Button
                             android:id="@+id/Promotion3"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content" />
+                            android:layout_height="85dp" />
                         <Button
                             android:id="@+id/Promotion4"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content" />
+                            android:layout_height="85dp" />
                         <Button
                             android:id="@+id/Promotion5"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content" />
+                            android:layout_height="85dp" />
                         <Button
                             android:id="@+id/Promotion6"
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content" />
+                            android:layout_height="85dp" />
 
 
                     </LinearLayout>
