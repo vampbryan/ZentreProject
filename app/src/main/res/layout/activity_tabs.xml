@@ -212,24 +212,52 @@
 
                         <Button
                             android:id="@+id/Promotion1"
+                            android:layout_marginTop="5dp"
                             android:layout_width="match_parent"
-                            android:layout_height="85dp" />
+                            android:layout_height="85dp"
+                            android:background="@drawable/prom_1" />
+                        <Button
+                            android:id="@+id/Promotion2"
+                            android:layout_width="match_parent"
+                            android:layout_height="85dp"
+                            android:background="@drawable/prom_2"
+                            android:layout_below="@id/Promotion1"/>
                         <Button
                             android:id="@+id/Promotion3"
                             android:layout_width="match_parent"
-                            android:layout_height="85dp" />
+                            android:layout_height="85dp"
+                            android:background="@drawable/prom_2"
+                            android:layout_below="@id/Promotion2"/>
                         <Button
                             android:id="@+id/Promotion4"
                             android:layout_width="match_parent"
-                            android:layout_height="85dp" />
+                            android:layout_height="85dp"
+                            android:background="@drawable/prom_2"
+                            android:layout_below="@id/Promotion3"/>
                         <Button
                             android:id="@+id/Promotion5"
                             android:layout_width="match_parent"
-                            android:layout_height="85dp" />
+                            android:layout_height="85dp"
+                            android:background="@drawable/prom_2"
+                            android:layout_below="@id/Promotion4"/>
                         <Button
                             android:id="@+id/Promotion6"
                             android:layout_width="match_parent"
-                            android:layout_height="85dp" />
+                            android:layout_height="85dp"
+                            android:background="@drawable/prom_2"
+                            android:layout_below="@id/Promotion5"/>
+                        <Button
+                            android:id="@+id/Promotion7"
+                            android:layout_width="match_parent"
+                            android:layout_height="85dp"
+                            android:background="@drawable/prom_2"
+                            android:layout_below="@id/Promotion6"/>
+                        <Button
+                            android:id="@+id/Promotion8"
+                            android:layout_width="match_parent"
+                            android:layout_height="85dp"
+                            android:background="@drawable/prom_2"
+                            android:layout_below="@id/Promotion7"/>
 
 
                     </LinearLayout>
