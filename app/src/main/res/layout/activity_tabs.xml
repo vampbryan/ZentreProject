@@ -94,7 +94,7 @@
                         android:layout_marginTop="5dp"
                         android:layout_width="match_parent"
                         android:layout_height="85dp"
-                        android:background="@drawable/btn_angeles"
+                        android:background="@drawable/btn_qualitas"
                         android:layout_below="@+id/Ibtn_1_Insurance_Tab1"/>
 
                     <Button
@@ -125,6 +125,7 @@
                         android:layout_marginTop="5dp"
                         android:layout_width="match_parent"
                         android:layout_height="85dp"
+                        android:background="@drawable/btn_dengue"
                         android:layout_below="@+id/Ibtn_1_Government_Tab1"/>
 
                     <Button
@@ -132,6 +133,7 @@
                         android:layout_marginTop="5dp"
                         android:layout_width="match_parent"
                         android:layout_height="85dp"
+                        android:background="@drawable/btn_vacunas"
                         android:layout_below="@+id/Ibtn_2_Government_Tab1"/>
 
                     <TextView
@@ -146,6 +148,7 @@
                         android:layout_marginTop="5dp"
                         android:layout_width="match_parent"
                         android:layout_height="85dp"
+                        android:background="@drawable/btn_mugerza"
                         android:layout_below="@+id/TV_MedicalAssistance_Tab1"/>
 
                     <Button
@@ -153,6 +156,7 @@
                         android:layout_marginTop="5dp"
                         android:layout_width="match_parent"
                         android:layout_height="85dp"
+                        android:background="@drawable/btn_angeles"
                         android:layout_below="@+id/Ibtn_1_MedicalAssistance_Tab1"/>
 
                     <Button
@@ -160,6 +164,7 @@
                         android:layout_marginTop="5dp"
                         android:layout_width="match_parent"
                         android:layout_height="85dp"
+                        android:background="@drawable/btn_cruzroja"
                         android:layout_below="@id/Ibtn_2_MedicalAssistance_Tab1"/>
 
                     <TextView
@@ -174,6 +179,7 @@
                         android:layout_marginTop="5dp"
                         android:layout_width="match_parent"
                         android:layout_height="85dp"
+                        android:background="@drawable/btn_ejercito"
                         android:layout_below="@id/TV_SecurityReports_Tab1"/>
 
                     <Button
@@ -181,6 +187,7 @@
                         android:layout_marginTop="5dp"
                         android:layout_width="match_parent"
                         android:layout_height="85dp"
+                        android:background="@drawable/btn_bomberos"
                         android:layout_below="@id/Ibtn_1_SecurityReports_Tab1"/>
 
                     <Button
@@ -188,6 +195,7 @@
                         android:layout_marginTop="5dp"
                         android:layout_width="match_parent"
                         android:layout_height="85dp"
+                        android:background="@drawable/btn_fuerzacivil"
                         android:layout_below="@id/Ibtn_2_SecurityReports_Tab1"/>
 
 
