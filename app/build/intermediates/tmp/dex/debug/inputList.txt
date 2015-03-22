@@ -1,0 +1,5 @@
+/Users/bryanrosales/AndroidStudioProjects/Zentre/app/build/intermediates/classes/debug
+/Users/bryanrosales/AndroidStudioProjects/Zentre/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-6770e5793576367177f97da3ce9cf411830eddb3.jar
+/Users/bryanrosales/AndroidStudioProjects/Zentre/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-7acafbd114082baa1e19906c3841dcc1b3d221ec.jar
+/Users/bryanrosales/AndroidStudioProjects/Zentre/app/build/intermediates/pre-dexed/debug/classes-ddfb59531bded55ada2a92f920181267804115e2.jar
+/Users/bryanrosales/AndroidStudioProjects/Zentre/app/build/intermediates/pre-dexed/debug/classes-b7fa321609b810ca2d53124a9492825599cd29c6.jar

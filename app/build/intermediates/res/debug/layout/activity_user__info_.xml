@@ -1,0 +1,134 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bryanrosales.zentre.User_Info_Activity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <EditText
+                android:id="@+id/Et_UIUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Username" />
+
+            <EditText
+                android:id="@+id/Et_UIPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Et_UIUsername"
+                android:hint="Password" />
+
+            <EditText
+                android:id="@+id/Et_UIEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Et_UIPassword"
+                android:hint="Email" />
+
+            <EditText
+                android:id="@+id/Et_UIFirstName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Et_UIEmail"
+                android:hint="First Name" />
+
+            <EditText
+                android:id="@+id/Et_UILastName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Et_UIFirstName"
+                android:hint="Last Name" />
+
+            <EditText
+                android:id="@+id/Et_UICountry"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Et_UILastName"
+                android:hint="Country" />
+
+
+            <EditText
+                android:id="@+id/Et_UIState"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Et_UICountry"
+                android:hint="Region/State/Province" />
+
+            <EditText
+                android:id="@+id/Et_UICity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Et_UIState"
+                android:hint="City" />
+
+
+
+    <EditText
+        android:id="@+id/ET_UIStreet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Et_UICity"
+        android:hint="Street" />
+
+    <EditText
+        android:id="@+id/Et_UIHouseNumber_I"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ET_UIStreet"
+        android:hint="House Number (Internal)" />
+
+    <EditText
+        android:id="@+id/Et_UIHouseNumber_E"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Et_UIHouseNumber_I"
+        android:hint="House Number (External)" />
+
+    <EditText
+        android:id="@+id/Et_UIZip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Et_UIHouseNumber_E"
+        android:hint="ZIP" />
+
+    <EditText
+        android:id="@+id/Et_UIZip2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Et_UIZip"
+        android:hint="ZIP" />
+
+    <EditText
+        android:id="@+id/Et_UIZip3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Et_UIZip2"
+        android:hint="ZIP" />
+
+    <EditText
+        android:id="@+id/Et_UIZip4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Et_UIZip3"
+        android:hint="ZIP" />
+
+    <EditText
+        android:id="@+id/Et_UIZip5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Et_UIZip4"
+        android:hint="ZIP" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
+<!-- From: file:/Users/bryanrosales/AndroidStudioProjects/Zentre/app/src/main/res/layout/activity_user__info_.xml -->
